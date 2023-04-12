@@ -1,0 +1,15 @@
+---
+layout: post
+tag: "Python"
+title: "What is this blog?"
+---
+
+This blog acts as a place for me to write about topics that interest me. While it will stay close to the fields of data and analysis, it will occasionally veer off into books I'm reading or ideas I've been wrestling with. Entries will generally be pretty short, maybe a few paragraphs, with the expository essay mixed in every once in a while. Hopefully the entries here will pique your curiosity as they have mine.
+
+And with that, the first topic is something old that I stumbled upon at work today.
+
+I have a series of entities that are related to one another in a parent-child relationship stored in a database. I needed to write an application that recursed through every combination of parent-child relationships to create various "paths", which would then be fed to other functions I'd written in Python. I was having a tough time writing code to recurse through an n-layered parent-child relationship path, and kept going down this path of infinite for-loops.
+
+Then I stumbled on this excellent [entry](https://www.python.org/doc/essays/graphs/), which perfectly encapsulates what I was trying to do in such an elegant way. I'd been pretty close as the graph dictionary I'd built almost exactly mirrored what the author(s) had written, but the find\_path() functions were the finishing touch. Just a few changes to make this compatible with Python 3 were all it took to get this up and running. Thanks to the Python team for keeping
+legacy docs up!
+
