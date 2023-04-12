@@ -22,8 +22,8 @@ title: Coots Data Services
 email: alex@cootsdataservices.com
 description: >- # this means to ignore newlines until "baseurl:"
   A blog to write about data and other things.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/Blog" # the subpath of your site, e.g. /blog
+url: "https://rac359.github.io" # the base hostname & protocol for your site, e.g. http://example.com
   # twitter_username: jekyllrb
 github_username:  rac359
 
