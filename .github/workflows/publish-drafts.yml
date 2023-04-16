@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
       
     steps:
-    - uses: actions/checkout@V1
+    - uses: actions/checkout@v3
     - name: Jekyll Publish Drafts
       uses: soywiz-archive/github-action-jekyll-publish-drafts@v2
       with:
